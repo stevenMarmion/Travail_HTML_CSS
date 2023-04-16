@@ -1,0 +1,28 @@
+@media screen and (max-width: 1024px) {
+  header {
+    display: block;
+    transition-duration: 0.5s;
+  }
+  
+  header ul li {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    transition-duration: 0.5s;
+  }
+  
+  
+  p#couper {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  section {
+    display: block;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+  }
+}

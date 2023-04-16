@@ -1,0 +1,30 @@
+body {
+  background: rgba(0, 0, 0, 0.9);
+  font-family: "apercu",sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 108%;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: white;
+}
+
+section div:hover {
+  filter: brightness(80%);
+}
+
+.vert >img, section div {
+  transition: transform 1s, filter 1s; 
+}
+
+.vert > img:hover, section div:hover  {
+  transform: scale(1.05);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
